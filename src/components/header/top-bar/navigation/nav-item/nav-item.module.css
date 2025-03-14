@@ -1,0 +1,7 @@
+.navItem.active a {
+    color: var(--navigation-link-hover);
+}
+
+.navItem.active a::before {
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.reservationButton a,
+.reservationButton button,
+.reservationButton span {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: var(--reservation-button-bg);
+    color: var(--reservation-button-text);
+    letter-spacing: 2px;
+}
+
+.reservationButton a:hover,
+.reservationButton button:hover {
+    background-color: var(--reservation-button-bg-hover);
+}
+
+.reservationButton span {
+    cursor: not-allowed;
+    opacity: 0.5;
+}

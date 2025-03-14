@@ -1,0 +1,32 @@
+.formControl {
+    margin-bottom: 1rem;
+}
+
+.formControl input,
+.formControl select {
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 15px 10px;
+    letter-spacing: 0.08rem;
+    color: var(--reservation-input-text);
+    outline: none;
+    background: none;
+    transition: all 0.3s ease-out;
+    border-radius: 0;
+    border-bottom: 2px solid var(--reservation-input-border);
+}
+
+.formControl input:focus,
+.formControl select :focus {
+    border-color: var(--reservation-input-border-focus);
+}
+
+.formControl input::placeholder {
+    color: var(--reservation-input-text);
+}
+
+.errors {
+    display: block;
+    color: var(--reservation-input-error);
+}

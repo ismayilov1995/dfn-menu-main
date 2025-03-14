@@ -1,0 +1,74 @@
+{
+    "navigations": {
+        "meals": "Yeməklər",
+        "drinks": "İçkilər",
+        "breakfast": "Qəlyanaltı"
+    },
+    "HomePage": {
+        "title": "Dolce Far Niente",
+        "description": "Dolce Far Niente Menyu",
+        "header": {
+            "reservationText": "Rezervasiya et",
+            "helperText": "Menyumuza baxın",
+            "mainText": "Menyu"
+        },
+        "footer": {
+            "helperText": "Reservasiyalar",
+            "mainText": "Rezerv edin",
+            "form": {
+                "nameText": "Ad Soyad",
+                "phoneText": "Telefon nömrəsi",
+                "personText": "Qonaq sayı",
+                "dayText": "Rezervasiya günü",
+                "hourText": "Rezervasiya saatı",
+                "buttonText": "Rezerv edin"
+            },
+            "instagram": "Bizi Instagramda izləyin"
+        }
+    },
+    "datas": {
+        "weekdays": {
+            "1st": "Bazar ertəsi",
+            "2nd": "Çərşənbə axşamı",
+            "3rd": "Çərşənbə",
+            "4th": "Cümə axşamı",
+            "5th": "Cümə",
+            "6th": "Şənbə",
+            "7th": "Bazar"
+        }
+    },
+    "drinkType": {
+        "bottle": "Butulka",
+        "glass": "Stəkan"
+    },
+    "errors": {
+        "form": {
+            "nameRequired": "Ad məcburidir",
+            "nameOnlyLetters": "Ad yalnız hərflərdən ibarət olmalıdır",
+            "nameMinLength": "Adın uzunluğu minimum {minLength} simvol olmalıdır",
+            "nameMaxLength": "Adın uzunluğu maksimum {maxLength} simvol olmalıdır",
+            "personRequired": "İnsan sayı məcburidir",
+            "personInteger": "İnsan sayı tam ədəd olmalıdır",
+            "personPositive": "İnsan sayı müsbət ədəd olmalıdır",
+            "personMaxCount": "İnsan sayı maskimum {maxPersonCount} ola bilər",
+            "dayRequired": "Rezervasiya günü seçilməyib",
+            "dayIncorrect": "Rezervasiya günü doğru deyil",
+            "hourRequired": "Rezervasiya saatı seçilməyib",
+            "invalidPhone": "Telefon nömrəsi səhvdir"
+        }
+    },
+    "months": {
+        "1": "Yanvar",
+        "2": "Fevral",
+        "3": "Mart",
+        "4": "Aprel",
+        "5": "May",
+        "6": "İyun",
+        "7": "İyul",
+        "8": "Avqust",
+        "9": "Sentyabr",
+        "10": "Oktyabr",
+        "11": "Noyabr",
+        "12": "Dekabr"
+    }
+}

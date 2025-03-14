@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-international-phone/style.css";
+
+:root {
+    /* THEME */
+    --theme-color-first: #ffffff;
+    --theme-color-second: #a97959;
+    --theme-color-third: #815d45;
+    --theme-color-fourth: #dcd8d7;
+    --theme-color-fifth: #f4efeb;
+    --theme-color-sixth: #e0e0e0;
+    --theme-color-text-primary: #143642;
+    --theme-color-text-secondary: #406163;
+    --theme-color-error: #d32f2f;
+
+    /* COMPONENTS */
+    /* navigation */
+    --navigation-link: var(--theme-color-first);
+    --navigation-link-hover: var(--theme-color-second);
+
+    /* language-switch */
+    --language-switch-text: var(--theme-color-first);
+    --language-switch-text-hover: var(--theme-color-second);
+    --language-select-bg: var(--theme-color-first);
+    --language-link-bg-hover: var(--theme-color-fourth);
+
+    /* reservation-button */
+    --reservation-button-text: var(--theme-color-first);
+    --reservation-button-bg: var(--theme-color-second);
+    --reservation-button-bg-hover: var(--theme-color-third);
+
+    /* description */
+    --description-header: var(--theme-color-first);
+    --description-paragraph: var(--theme-color-first);
+
+    /* course-section */
+    --course-section-bg-primary: var(--theme-color-sixth);
+    --course-section-bg-secondary: var(--theme-color-fifth);
+
+    /* course-item */
+    --course-item-bg-primary: var(--theme-color-sixth);
+    --course-item-bg-secondary: var(--theme-color-fifth);
+
+    /* name-and-price */
+    --name-and-price-border: var(--theme-color-text-secondary);
+
+    /* reservation-section */
+    --reservation-heading: var(--theme-color-first);
+
+    /* reservation-form */
+    --reservation-input-text: var(--theme-color-first);
+    --reservation-input-border: var(--theme-color-first);
+    --reservation-input-border-focus: var(--theme-color-second);
+    --reservation-input-placeholder: var(--theme-color-fourth);
+    --reservation-input-error: var(--theme-color-error);
+
+    /* closing-section */
+
+    /* follow-button */
+    --follow-button-text: var(--theme-color-second);
+    --follow-button-border: var(--follow-button-text);
+    --follow-button-text-hover: var(--theme-color-first);
+    --follow-button-bg-hover: var(--follow-button-border);
+
+    /* copyright */
+    --copyright-bg: var(--theme-color-first);
+    --copyright-text: var(--theme-color-text-secondary);
+
+    /* burger-button */
+    --burger-button-bg: var(--theme-color-second);
+    --burger-button-text: var(--theme-color-first);
+
+    /* burger-menu */
+    --burger-menu-bg: var(--theme-color-sixth);
+    --burger-menu-text: var(--theme-color-text-primary);
+}
+
+body {
+    background-color: var(--theme-color-fifth);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--theme-color-text-primary);
+}
+
+.border-t {
+    border-top: 1px solid var(--theme-color-fourth);
+}
+
+.border-b {
+    border-bottom: 1px solid var(--theme-color-fourth);
+}
+
+.border-tb {
+    border-top: 1px solid var(--theme-color-fourth);
+    border-bottom: 1px solid var(--theme-color-fourth);
+}
+
+.border-lr {
+    border-left: none;
+    border-right: none;
+}
+
+.react-international-phone-country-selector-button,
+.react-international-phone-input {
+    background: none !important;
+    border: none !important;
+}
+
+.react-international-phone-country-selector-button {
+    padding: 24.75px 10px !important;
+}
+
+.react-international-phone-input {
+    padding: 15px 10px !important;
+    width: 100% !important;
+    height: auto !important;
+    font-size: 1.25rem !important;
+    color: var(--reservation-input-text) !important;
+    outline: none !important;
+    letter-spacing: 0.08rem !important;
+    border-bottom: 2px solid var(--reservation-input-border) !important;
+    transition: all 0.3s ease-out !important;
+    border-radius: 0 !important;
+}
+
+.react-international-phone-input:focus {
+    border-color: var(--reservation-input-border-focus) !important;
+}
+
+.react-international-phone-country-selector-dropdown {
+    outline: none !important;
+}
+
+.react-datepicker {
+    border-radius: 0 !important;
+    color: var(--theme-color-text-primary) !important;
+    font-family: inherit !important;
+    background-color: var(--theme-color-first) !important;
+    font-size: 1rem !important;
+    border: 1px solid var(--theme-color-fourth) !important;
+    user-select: none !important;
+}
+
+.react-datepicker-popper .react-datepicker__triangle {
+    stroke: var(--theme-color-first) !important;
+}
+
+.react-datepicker-popper .react-datepicker__triangle path {
+    stroke: #fff !important;
+}
+
+.react-datepicker__header {
+    background-color: var(--theme-color-fifth) !important;
+}
+
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+    background-color: var(--theme-color-second) !important;
+    color: var(--theme-color-first) !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--in-range {
+    background-color: var(--theme-color-third) !important;
+    color: var(--theme-color-first) !important;
+}
+
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__navigation-icon::before {
+    border-color: var(--theme-color-second) !important;
+}
+
+.react-datepicker-wrapper input {
+    display: block !important;
+    width: 100% !important;
+    font-size: 1.25rem !important;
+    padding: 15px 10px !important;
+    letter-spacing: 0.08rem !important;
+    color: var(--reservation-input-text) !important;
+    outline: none !important;
+    background: none !important;
+    transition: all 0.3s ease-out !important;
+    border-radius: 0 !important;
+    border-bottom: 2px solid var(--reservation-input-border) !important;
+}
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+.react-datepicker-wrapper input:focus {
+    border-color: var(--reservation-input-border-focus) !important;
+}
+
+.react-datepicker-wrapper input::placeholder {
+    color: var(--reservation-input-text) !important;
+}
+
+@media (min-width: 640px) {
+    .border-lr {
+        border-left: 1px solid var(--theme-color-fourth);
+        border-right: 1px solid var(--theme-color-fourth);
+    }
+}

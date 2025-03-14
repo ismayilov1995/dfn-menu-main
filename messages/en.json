@@ -1,0 +1,74 @@
+{
+    "navigations": {
+        "meals": "Meals",
+        "drinks": "Drinks",
+        "breakfast": "Breakfast"
+    },
+    "HomePage": {
+        "title": "Dolce Far Niente",
+        "description": "Dolce Far Niente Menu",
+        "header": {
+            "reservationText": "Make Reservation",
+            "helperText": "Check out our",
+            "mainText": "Menu"
+        },
+        "footer": {
+            "helperText": "Reservations",
+            "mainText": "Book a Table",
+            "form": {
+                "nameText": "Full Name",
+                "phoneText": "Phone Number",
+                "personText": "Number of Guests",
+                "dayText": "Reservation Day",
+                "hourText": "Reservation Hour",
+                "buttonText": "Book a Table"
+            },
+            "instagram": "Follow us on Instagram"
+        }
+    },
+    "datas": {
+        "weekdays": {
+            "1st": "Monday",
+            "2nd": "Tuesday",
+            "3rd": "Wednesday",
+            "4th": "Thursday",
+            "5th": "Friday",
+            "6th": "Saturday",
+            "7th": "Sunday"
+        }
+    },
+    "drinkType": {
+        "bottle": "Bottle",
+        "glass": "Glass"
+    },
+    "errors": {
+        "form": {
+            "nameRequired": "Name field is required",
+            "nameOnlyLetters": "Name field must contain only letters",
+            "nameMinLength": "Name length must be minimum {minLength} characters",
+            "nameMaxLength": "Name length must be maximum {maxLength} characters",
+            "personRequired": "Number of persons field is required",
+            "personInteger": "Number must be integer",
+            "personPositive": "Number must be positive",
+            "personMaxCount": "Number must be less than {maxPersonCount}",
+            "dayRequired": "Reservation day must be selected",
+            "dayIncorrect": "Reservation day is invalid",
+            "hourRequired": "Reservation hours must be selected",
+            "invalidPhone": "Phone number is not valid"
+        }
+    },
+    "months": {
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+    }
+}
