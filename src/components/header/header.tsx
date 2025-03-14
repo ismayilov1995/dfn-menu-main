@@ -10,7 +10,7 @@ const classes = {
 
 export default function Header() {
     return (
-        <header id="header" className={classes.header}>
+        <header id="header" className={classes.header} data-test-id="version V0.0.1">
             <div className={classes.content}>
                 <Overlay />
                 <TopBar />
